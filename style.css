@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;
+    height: 100vh;
+}
+
+.mainpage {
+    color: white; 
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    width: 100vh;
+    
+}
+
+button {
+    flex-basis: auto;
+    max-width: 200px;
+    background-color: black;
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid white;
+    padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vh;
+}
+
+#scissors {
+    width: 300px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+.game-info {
+    color: white;
+    font-size: 40px;
+}
+
+.invisible {
+    display: none;
+}
